@@ -66,6 +66,8 @@ Feature matching: The feature vectors of the detected face are compared to those
 Recognition decision: The comparison results are analyzed to determine whether the detected face is a match to an identity in the database.
 Verification or identification: The system can either verify the identity of a known person or identify an unknown person by comparing the detected face to a database of known identities.
 
+Credits:- https://github.com/OmarMedhat22/Iris-Recognition-Ubiris-v1/tree/master
+
 # Results
 Home Page:
 
