@@ -59,6 +59,13 @@ Iris recognition is a biometric authentication technique that uses unique patter
 
 ![Example image](result_images/iris_recognition.drawio.png "This is an example image")
 
+Face detection: This involves locating the face in an image or video frame using computer vision algorithms.
+Face alignment: The detected face is aligned to a standardized position and size for consistent processing.
+Feature extraction: Key facial features such as eyes, nose, mouth, and jawline are identified and represented mathematically as feature vectors.
+Feature matching: The feature vectors of the detected face are compared to those in a database to find a match.
+Recognition decision: The comparison results are analyzed to determine whether the detected face is a match to an identity in the database.
+Verification or identification: The system can either verify the identity of a known person or identify an unknown person by comparing the detected face to a database of known identities.
+
 # Results
 Home Page:
 
