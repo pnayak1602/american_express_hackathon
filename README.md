@@ -73,3 +73,4 @@ Face Recognition:
 
 Iris Recognition:
 
+![Example image](result_images/iris_recognition.drawio.png "This is an example image")
