@@ -60,7 +60,7 @@ Credits:- https://arsfutura.com/magazine/face-recognition-with-facenet-and-mtcnn
 # Results
 Home Page:
 
-![Example image](result_images/home_page.jpeg "This is an example image")
+![Example image](result_images/new_home_page.jpeg "This is an example image")
 
 Liveliness Detection:
 
