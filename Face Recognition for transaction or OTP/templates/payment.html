@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container-fluid">
+  <div class="row d-flex justify-content-between flex-wrap">
+    <div class="col-md-6">
+      <div class="card mx-auto">
+        <form name="signup_form">
+        <div class="card-body">
+          <h5 class="card-title">ADD CARD</h5>
+          <div class="card-details">
+            <div class="form-group mb-0">
+              <p class="text-warning mb-0"><label for="card-num">Card Number</label></p> 
+              <input type="text" name="card-num" placeholder="1234 5678 9012 3457" size="17" id="cno" minlength="19" maxlength="19">
+            </div>
+            <div class="form-group">
+              <p class="text-warning mb-0"><label for="card-name">Cardholder's Name</label></p> 
+              <input type="text" name="card-name" placeholder="Name" size="17">
+            </div>
+            <div class="form-group pt-2">
+              <div class="row">
+                <div class="col-sm-4">
+                  <p class="text-warning mb-0"><label for="exp-date">Expiration</label></p>
+                  <input type="text" name="exp-date" placeholder="MM/YYYY" size="7" id="exp" minlength="7" maxlength="7">
+                </div>
+                <div class="col-sm-3">
+                  <p class="text-warning mb-0"><label for="cvv">Cvv</label></p>
+                  <input type="password" name="cvv" placeholder="&#9679;&#9679;&#9679;" size="1" minlength="3" maxlength="3">
+                </div>
+                <div class="col-sm-5 pt-0">
+                  <button type="submit" class="btn btn-primary"><i class="fas fa-arrow-right px-3 py-2"></i></button>
+                </div>
+              </div>
+            </div>
+            </div>
+        </form>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card mx-auto">
+        <form name="login_form">
+        <div class="card-body">
+          <h5 class="card-title">MAKE PAYMENT</h5>
+          <div class="card-details">
+            <div class="form-group mb-0">
+              <p class="text-warning mb-0"><label for="card-num">Card Number</label></p> 
+              <input type="text" name="card-num" placeholder="1234 5678 9012 3457" size="17" id="cno" minlength="19" maxlength="19">
+            </div>
+            <div class="form-group">
+              <p class="text-warning mb-0"><label for="card-name">Cardholder's Name</label></p> 
+              <input type="text" name="card-name" placeholder="Name" size="17">
+            </div>
+            <div class="form-group pt-2">
+              <div class="row">
+                <div class="col-sm-4">
+                  <p class="text-warning mb-0"><label for="exp-date">Expiration</label></p>
+                  <input type="text" name="exp-date" placeholder="MM/YYYY" size="7" id="exp" minlength="7" maxlength="7">
+                </div>
+                <div class="col-sm-3">
+                <p class="text-warning mb-0"><label for="cvv">Cvv</label></p>
+                <input type="password" name="cvv" placeholder="&#9679;&#9679;&#9679;" size="1" minlength="3" maxlength="3">
+                </div>
+                <div class="col-sm-5 pt-0">
+                <button type="submit" class="btn btn-primary"><i class="fas fa-arrow-right px-3 py-2"></i></button>
+                </div>
+                </div>
+                </div>
+                </div>
+                </form>
+        </div>
+      </div>
+    </div>
+  
+{% endblock %}
