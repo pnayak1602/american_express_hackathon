@@ -42,6 +42,18 @@ Face Liveliness Detection involves categorizing the faces into real or spoof. In
 
 
 # Face recognition
+Face Recognition is defined as the problem of identifying or verifying faces in an image.
+Face recognition can be divided into multiple steps. The image below shows an example of a face recognition pipeline.
+
+![Example image](result_images/face_recognition_pipeline.png "This is an example image")
+
+Face detection — Detecting one or more faces in an image.
+Feature extraction — Extracting the most important features from an image of the face.
+Face classification — Classifying the face based on extracted features.
+In this project we performed face detection using MTCNN, feature extraction using FaceNet and classification using Softmax.
+
+Credits:- https://arsfutura.com/magazine/face-recognition-with-facenet-and-mtcnn/
+
 # Iris Recognition
 
 
