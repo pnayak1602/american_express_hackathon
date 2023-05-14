@@ -38,7 +38,7 @@ Streamlit provides a simple and intuitive interface for creating user interfaces
 # Face Liveliness Detection
 Face Liveliness Detection involves categorizing the faces into real or spoof. In this project a model has been trained using MobileNet on a dataset consisting of 5,171 images in total. Accurac of the model is 97%. The number of images used for training and testing are as shown:
 
-![Example image](result_images/train_and_test.jpeg "This is an example image")
+![Example image](result_images/train_and_test.png "This is an example image")
 
 
 # Face recognition
