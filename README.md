@@ -55,7 +55,9 @@ In this project we performed face detection using MTCNN, feature extraction usin
 Credits:- https://arsfutura.com/magazine/face-recognition-with-facenet-and-mtcnn/
 
 # Iris Recognition
+Iris recognition is a biometric authentication technique that uses unique patterns in the iris of an individual's eye for identification purposes.
 
+![Example image](result_images/iris_recognition.drawio.png "This is an example image")
 
 # Results
 Home Page:
@@ -71,6 +73,3 @@ Face Recognition:
 
 ![Example image](result_images/face_recognition.jpeg "This is an example image")
 
-Iris Recognition:
-
-![Example image](result_images/iris_recognition.drawio.png "This is an example image")
