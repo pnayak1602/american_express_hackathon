@@ -37,4 +37,18 @@ Streamlit provides a simple and intuitive interface for creating user interfaces
 
 
 # Results
+Home Page:
+
+![Example image](result_images/home_page.jpeg "This is an example image")
+
+Liveliness Detection:
+
+![Example image](result_images/real_spoof_1.jpeg "This is an example image")
+![Example image](result_images/real_spoof_2.jpeg "This is an example image")
+
+Face Recognition:
+
+![Example image](result_images/face_recognition.jpeg "This is an example image")
+
+Iris Recognition:
 
