@@ -29,6 +29,10 @@ Flask is a lightweight and flexible web application framework for Python. It is 
 
 Streamlit provides a simple and intuitive interface for creating user interfaces, allowing developers to focus on their data and analysis rather than the technical details of web development. Streamlit includes a variety of features and widgets, such as sliders, dropdowns, and plots, that can be easily integrated into data-driven applications.
 
+# Architectural Diagram of the proposed model
+
+![Example image](result_images/architecture_diagram.png "This is an example image")
+
 # Installation and Usage
 
 # Face Liveliness Detection
